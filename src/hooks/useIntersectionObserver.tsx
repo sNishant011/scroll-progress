@@ -4,6 +4,9 @@ interface Args extends IntersectionObserverInit {
 	freezeOnceVisible?: boolean;
 }
 
+/**
+ Source: https://usehooks-ts.com/react-hook/use-intersection-observer
+*/
 function useIntersectionObserver({
 	threshold = 0,
 	root = null,
